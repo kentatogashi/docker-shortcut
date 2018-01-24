@@ -1,3 +1,5 @@
+apt update
+apt upgrade
 URL=https://github.com/docker/compose/releases/download/1.17.0/
 curl -L ${URL}/"docker-compose-$(uname -s)-$(uname -m)" -o docker-compose
 sudo cp docker-compose /usr/local/bin/docker-compose
